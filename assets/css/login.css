@@ -1,0 +1,247 @@
+        @media only screen and (max-width: 600px) {
+            /* Estilos para telas pequenas */
+            
+
+          }
+
+        body{
+            z-index: 50;
+            font-family: monospace;
+            font-size: 15px;
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-size: cover;
+        }
+
+        .box {
+            position:relative;
+            float: right;
+            margin-top: 30px;
+            margin: 5px;
+            min-width:220px ;
+            max-width:700px ;
+            border-radius: 15px;
+            width: 20%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white; 
+            
+        }
+
+        fieldset{
+            border: 3px solid dodgerblue;
+        }
+
+        legend{
+            border: 1px solid dodgerblue;
+            padding: 10px;
+            text-align: center;
+            background-color: dodgerblue;
+            border-radius: 10px;
+          
+        }
+
+        .inputBox {
+            position: relative;
+        }
+
+        .inputUser{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+        }
+
+        .labelInput {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+
+        }
+
+        .inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput {
+            top: -20px;
+            font-size: 12px;
+            color: dodgerblue;
+        }
+
+        #data_nascimento {
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 0fr); /* cria 3 colunas iguais */
+            grid-gap: 10px; /* espaço entre as imagens */
+            margin: 20px;
+          }
+          
+
+          .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: solid;
+            text-align: center;
+            display: flex;
+          }
+          
+          .menu li {
+            display: inline-block;
+            position: relative;
+          }
+          
+          .menu li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+          }
+          
+          .menu li .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+            border: 1px solid #ccc;
+          }
+          
+          .menu li:hover .submenu {
+            display: block;
+          }
+          
+          .menu li .submenu li {
+            display: block;
+          }
+          
+          .menu li .submenu li a {
+            display: block;
+            padding: 5px 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: normal;
+          }
+          
+          .menu li .submenu li a:hover {
+            background-color: #f0f0f0;
+          }
+          
+        
+          .menu ul li{
+            border: solid;
+          }     
+
+          h1 {
+            margin: 20px;
+            text-align: center;
+          }
+
+          h3 {
+            position: absolute;
+            right: 100%;
+            top: 100%;
+          }
+
+          h4 {
+            margin: 10px;
+            color: white;
+            align-items: center;
+            margin-left: 10px;
+
+          }
+
+          .fim {
+            color: #000;
+          }
+
+         .cabeçalho ul {
+            position: relative;
+            float: right;
+            margin: 8px;
+            list-style: none;
+         }
+
+         #submit {
+          margin-bottom: 5px;
+         }
+          
+       
+         main img {
+          position: relative;
+          float: right;
+          margin-right: 60px;
+          margin-top: 10px;
+          border-radius: 500px;
+          width: 300px;
+         }
+
+         .login{
+          background-color: rgba(0, 00, 0, 0.9);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          padding: 80px;
+          border-radius: 15px;
+          color: #fff;
+         }
+
+         input {
+          padding: 15px;
+          border: none;
+          outline: none;
+          font-size: 15px;
+         }
+
+         button {
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 15px;
+            color: #fff;
+            
+         }  
+         
+         button:hover {
+          background-color: deepskyblue;
+          cursor: pointer;       
+         }
+
+         .menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          border: solid;
+          text-align: center;
+          }
+          
+          .menu li {
+          display: inline-block;
+          position: relative;
+          }
+          
+          .menu li a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+          }
+          
+          .menu ul li{
+          border: solid;
+          }
+
+          a img {
+            margin: 10px;
+          }

@@ -1,0 +1,58 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.box {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	width: 300px; /* define a largura da caixa */
+	padding: 10px; /* define o espaço dentro da caixa */
+	background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71)); /* define a cor de fundo da caixa */
+	border: 1px solid #ddd; /* define a borda da caixa */
+	border-radius: 5px; /* define o raio das bordas */
+	margin-right: 5px;
+	display: flex;
+	flex-direction: row;
+  }
+
+  legend {
+	text-align: center
+  }
+
+  .img img{
+	display: flex;
+	flex-direction: row;
+  }
+
+  	

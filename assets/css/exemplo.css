@@ -1,0 +1,174 @@
+body {
+	
+}
+
+nav{
+	display: flex;
+	margin: 15px;
+
+	
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 10px;
+	border: solid;
+}
+
+nav li {
+	margin: 10px 10px 10px 10px ;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #000;
+	
+}
+
+a:hover{
+	color: yellow
+}
+
+header h1{
+		font-family: 'Courier New', Courier, monospace;
+		margin: 20px;
+		
+}
+
+
+.topo_menu img{
+	margin: 0%;
+}
+
+.member{
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+}
+
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: solid;
+	text-align: center;
+  }
+  
+  .menu li {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .menu li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+  }
+  
+  .menu ul li{
+	border: solid;
+  }
+
+
+  .destaque {
+	background-color: #f0f0f0;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+	margin: px;
+  }
+  
+  .produto {
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	width: 200px;
+	margin-bottom: 20px;
+	padding: 20px;
+  }
+  
+  .produto img {
+	width: 100%;
+  }
+  
+  .produto h2 {
+	margin-top: 0;
+  }
+  
+  .produto p {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+  }
+  
+  .produto .preco {
+	font-size: 18px;
+	font-weight: bold;
+	color: #c00;
+	margin-bottom: 20px;
+	display: block;
+  }
+  
+  .produto button a {
+	color:#000;
+	border: solid;
+	cursor: pointer;
+	text-decoration: none;
+  }
+
+  #recomend {
+	margin: 10px;
+  }
+
+ .marcas {
+	text-align: left;
+  }
+
+  .adoção1{
+	font-family: monospace;
+	text-align: left;
+	font-size: 20px;
+  }
+
+.right {
+	margin: 40px;
+	list-style: none;
+	box-shadow: 8px
+}
+
+
+.home{
+	color: blue
+}
+.home a{
+color: black;
+cursor: pointer;
+position: absolute;
+left: 80%;
+}
+button{
+	cursor: pointer;
+	color: silver;
+}
+.circulo img{
+	width: 150px;
+}
+
+.comprar {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
